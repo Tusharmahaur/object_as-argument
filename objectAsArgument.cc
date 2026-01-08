@@ -1,19 +1,25 @@
 #include <iostream>
 using namespace std;
+
 class time{
+
     int hours;
     int minutes;
+
     public:
+        //getter function 
         void gettime(int h, int m){
             hours = h;
             minutes = m;
         }
+
+        //setter function         
         void puttime(void){
             cout<<hours<<" hours and ";
             cout<<minutes<<" minutes "<<endl;
-
         }
-
+        
+        //function prototype 
         void sum(time,time);
 };
 
